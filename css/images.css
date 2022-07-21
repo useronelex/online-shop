@@ -1,0 +1,52 @@
+/*images*/
+.image{
+	margin:auto;
+	width: 100%; 
+	border-radius:25px;	
+}
+
+.image_kopter{
+	margin:auto;
+	width: 70%; 
+	height: 350px;
+	border-radius:25px;	
+}
+.image_kopter:hover{
+	transform:scale(1.25, 1.25);
+}
+.image_arduino{
+	margin:auto;
+	width: 70%; 
+	height: 250px;
+	border-radius:25px;	
+}
+.image_arduino:hover{
+	transform:scale(1.25, 1.25);
+}
+.image_led{
+	margin: auto;
+	width: 70%; 
+	height: 230px;
+	border-radius:25px;	
+}
+.image_led:hover{
+	transform:scale(1.25, 1.25);
+}
+.image_wire{
+	margin: auto;
+	width: 70%; 
+	height: 200px;
+	border-radius:25px;	
+}
+.image_wire:hover{
+	transform:scale(1.25, 1.25);
+}
+.car_arduino{
+	margin:auto;
+	width: 40%; 
+	height: 300px;
+	border-radius:25px;	
+}
+.car_arduino:hover{
+	transform:scale(1.25, 1.25);
+}

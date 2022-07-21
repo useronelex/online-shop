@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registre form</title>
+	<link rel="stylesheet" href="css/registratione.css">
+	<link rel="stylesheet" href="../../css/footer.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="../../fonts/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+	<link rel="icon" href="../../img/robot.png" type="image/png" sizes="32x32">
+</head>
+<body>
+	<div class="mainblock">
+		<h1>Реєстрація нового клієнта</h1>
+		<hr>
+		<h3>заповніть форму реєстрації</h3>
+		<form action="d_base.php" method="post">
+			<fieldset>
+				<legend>
+					<h3>Контактні дані</h3>
+				</legend>
+				<label for="name">Введіть Ваше ім'я: </label>
+				<input type="text" id="name" name="user_name" placeholder="ім'я" title=" напр.: Валерій" required maxlength="20"><br><br>
+				
+				<label for="surname">Введіть Ваше прізвище: </label>
+				<input type="text" id="surname" name="user_surname" placeholder="прізвище" title="напр.: Жуков" required maxlength="20"><br><br>
+
+				<label for="sex">Вкажіть стать: </label><br>
+				<input type="radio" name="sex" value="male"><label for="sexmale">Чоловік</label>
+				<input type="radio" name="sex" value="female"><label for="sexfemale">Жінка</label><br><br>
+
+				<label for="email">Вкажіть електронну адресу: </label>
+				<input type="email" id="email" name="email" placeholder="user@mail.com" title="напр.: user@mail.com" required maxlength="20" ><br><br>
+
+				<button type="submit"><p>НАДІСЛАТИ</p></button>
+			</fieldset>
+		</form>
+		<div class="pic">
+				<div>
+					<a href="../../index.html">
+						<img src="image/robot.png" alt="roboTic">
+					</a>
+				</div>
+				<div>
+					<a href="../../index.html">
+						<img src="image/brush.png" alt="home">
+						<h4>GO BACK</h4>
+					</a>
+				</div>
+		</div>
+		<hr>
+				<!--Footer-->
+		<footer>
+			<div class="footer_block">
+				МИ У СОЦІАЛЬНИХ МЕРЕЖАХ
+			</div>
+			<div class="footer_icons">
+				<a href="https://www.facebook.com/robocodepro" target="_blank"><i class="fab fa-facebook"> <p>Facebook</p></i></a>
+				<a href="https://www.instagram.com/robocodepro/?hl=ru" target="_blank"><i class="fab fa-instagram"> <p>Instagram</p></i></a>
+				<a href="https://t.me/robocodepro" target="_blank"><i class="fab fa-telegram"><p>Telegram</p></i></a>
+			</div>
+			<div class="author">
+				 created by <a href="https://t.me/iv_ua">@iv_ua <sup><i class="far fa-copyright"></i></sup> </a>
+			</div>
+
+		</footer>
+	</div>
+</body>
+</html>
